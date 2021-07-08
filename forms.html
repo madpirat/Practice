@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a password:</label>
+            <input id="password" type="password" placeholder="enter your password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter a color:</label>
+            <input id="color" type="color" placeholder="color" name="color">
+        </p>
+        <p>
+            <label for="button">This is a clickable!</label>
+            <input id="button" type="button" placeholder="click me!" name="button">
+        </p>
+        <button type="button">Submit</button>
+    </form>
+
+    <h2>Another Form Demo</h2>
+    <h3>Search Reddit</h3>
+    <form action="https://www.reddit.com/search">
+        <p>
+            <label for="search">Search Reddit</label>
+            <input id="search" type="text" name="q" placeholder="input something">
+            <button>Go!</button>
+        </p>
+    </form>
+    <h3>Google Search</h3>
+    <form action="https://google.com/search">
+        <p>
+            <label for="search_google">Search Google</label>
+            <input id="search_google" type="text" name="q" placeholder="input something">
+            <button>Go!</button>
+        </p>
+    </form>
+    <h3>YouTube Search</h3>
+    <form action="https://www.youtube.com/results">
+        <p>
+            <label for="search_youtube">Search YouTube</label>
+            <input id="search_youtube" type="text" name="search_query" placeholder="input something">
+            <button>Go!</button>
+        </p>
+    </form>
+
+    <h2>Test CheckBox'ów</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">Zgadzam się na wszystko!</label>
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S:</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+    </form>
+
+    <h2>Test Drop Down Menu</h2>
+    <form action="/drop">
+        <label for="meal">Please select an Entree</label>
+        <p>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+
+    <h2>Test of Slider</h2>
+    <form action="/slider">
+        <p>
+            <label for="awesome">Amount of Awesomeness</label>
+            <input type="range" name="slider" id="awesome" min="1" max="10">
+        </p>
+        <button>Submit</button>
+    </form>
+    <p>
+        <label for="">Awesome Text Field</label>
+        <br>
+        <textarea name="" id="field" cols="30" rows="10" placeholder="Input an awesome text!"></textarea>
+    </p>
+
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first_name" id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" minlength="5" maxlength="12" required>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="" required>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

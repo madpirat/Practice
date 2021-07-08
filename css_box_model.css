@@ -1,0 +1,36 @@
+h1 {
+    height: 120px;
+    width: 350px;
+}
+
+div {
+    height: 110px;
+    width: 350px;
+}
+
+#one {
+    padding: 25px 10px 15px 25px;
+    background-color: #a2d2ff;
+    border-color: #17c3b2;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 25% 10%;
+}
+
+#two {
+    padding: 25px 10px 15px 25px;
+    background-color: #1e96fc;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+#three {
+    padding: 25px 10px 15px 25px;
+    background-color: #072ac8;
+    border-width: 1px;
+    border-style: dashed;
+}
+button {
+    padding: 5px 10px;
+    
+}
