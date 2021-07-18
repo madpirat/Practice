@@ -1,0 +1,43 @@
+body {
+    background-color: #e9edc9;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contentSection h2 {
+    color: #d4a373;
+    font-weight: 300;
+}
+
+.contentSection p {
+    color: #003049;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.headingSection span {
+    color: #d4a373
+}
+
+.headingSection h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #d4a373;
+}
+
+#mainNavbar .navbar-brand {
+    color: #d4a373;
+}
