@@ -4,8 +4,8 @@ body {
 }
 
 .contentSection h2 {
-    color: #d4a373;
-    font-weight: 300;
+    color: #6c584c;
+    font-weight: 400;
 }
 
 .contentSection p {
@@ -13,6 +13,10 @@ body {
     font-weight: 300;
     font-size: 1.125rem;
     line-height: 2;
+}
+
+.content1 {
+    margin-top: 50px;
 }
 
 .headingSection span {
@@ -23,6 +27,11 @@ body {
     font-weight: 300;
     font-size: 2rem;
     text-transform: uppercase;
+}
+
+.navbar.scrolled {
+    background: #cb997e;
+    transition: background 1s;
 }
 
 #mainNavbar {
@@ -39,5 +48,5 @@ body {
 }
 
 #mainNavbar .navbar-brand {
-    color: #d4a373;
+    color: white;
 }
