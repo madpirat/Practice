@@ -32,7 +32,6 @@ body {
 .navbar.scrolled {
     background: #cb997e;
     transition: background 1s;
-}
 
 #mainNavbar {
     font-size: 1.5rem;
