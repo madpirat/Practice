@@ -31,7 +31,7 @@ body {
 
 .navbar.scrolled {
     background: #cb997e;
-    transition: background 1s;
+    transition: background 1s ease-in-out;
 }
 
 #mainNavbar {
