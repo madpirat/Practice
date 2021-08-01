@@ -1,0 +1,10 @@
+## dla lepszej nawigacji 'keyboard users only'
+    <button accesskey="b">Important Button</button>
+
+    accesskey attribute to specify a shortcut key to activate or bring focus to an element.
+##
+
+## TABINDEX
+    https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/use-tabindex-to-add-keyboard-focus-to-an-element
+    
+##    
