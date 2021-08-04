@@ -8,3 +8,8 @@
     https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/use-tabindex-to-add-keyboard-focus-to-an-element
     
 ##    
+
+## responsywny auto aspect ratio
+https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/make-an-image-responsive
+
+##
