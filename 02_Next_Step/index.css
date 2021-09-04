@@ -1,0 +1,24 @@
+body {
+    background-color: #FDF0D5;
+    text-align: center;
+    align-items: center;
+}
+
+div {
+    height: 110px;
+    width: 450px;
+}
+
+div.box_1 {
+
+    margin: auto;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #669BBC;
+    opacity: 1;
+}
+
+div.text_1 h1 {
+    color: #000000;
+
+}
