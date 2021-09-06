@@ -11,16 +11,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     </link>
-    <aherf></aherf>
 </head>
 
 <body>
-
-    <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
+    <div class="flex-container-1">
+        <h1>Flex Box Practice + Forms</h1>
     </div>
+
+    <form id="survey-form">
+        <div class="form-group">
+            <div class="input-1">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" size="50" required autofocus><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" size="50" required><br>
+                <label for="email">E-Mail:</label><br>
+                <input type="email" id="email" name="email" size="50" required><br>
+                <br>
+            </div>
+
+            <div class="input-2">
+                <input name="preferences" type="checkbox" value="check-box-1">
+                <label>Check-Box-1</label><br>
+                <input name="preferences" type="checkbox" value="check-box-2">
+                <label>Check-Box-2</label><br>
+                <input name="preferences" type="checkbox" value="check-box-3">
+                <label>Check-Box-3</label><br>
+            </div>
+
+            <div class="input-3">
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+        </div>
+    </form>
 </body>
 
 </html>
