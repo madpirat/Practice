@@ -53,8 +53,20 @@ body {
 }
 
 .submit-button {
-    padding: 10px;
-    background: #FCA311;
-    border: 0px;
+    color:#FFFFFF;
+    transition-duration: 0.4s;
+    background: none;
+    border: 1px solid #FCA311;
     border-radius: 15px;
+    padding: 10px;
 }
+
+.submit-button:hover {
+    color:#FFFFFF;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #FCA311;
+    border: 1px solid #FCA311;
+    border-radius: 15px;
+    padding: 10px;
