@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    max-width: 500px;
 }
 
 .flex-container-1 {
@@ -9,14 +10,15 @@ body {
     text-align: center;
     border: 1px solid #14213D;
     border-radius: 15px 15px 0 0;
-    height: 100px;
     margin: 10px;
     padding: 10px;
     background-color: #14213D;
     color: #FFFFFF;
 }
 
-.form-group>div {
+.form-group {
+    display: flex;
+    flex-direction: column;
     margin: 10px;
     padding: 10px;
     color: #FFFFFF;
@@ -24,15 +26,48 @@ body {
     line-height: 1.6;
 }
 
+.input-1 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.input-2 {
+    margin: 5px;
+    padding: 5px;
+}
+
 .input-3 {
-    border: 0px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-group-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #14213D;
+    margin: 10px;
+    padding: 10px;
     border-radius: 0 0 15px 15px;
 }
 
 .submit-button {
-    
-    padding: 10px;
-    background: #FCA311;
-    border: 0px;
+    color:#FFFFFF;
+    transition-duration: 0.4s;
+    background: none;
+    border: 1px solid #FCA311;
     border-radius: 15px;
+    padding: 10px;
+}
+
+.submit-button:hover {
+    color:#FFFFFF;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #FCA311;
+    border: 1px solid #FCA311;
+    border-radius: 15px;
+    padding: 10px;
 }
