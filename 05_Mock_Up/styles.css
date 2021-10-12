@@ -2,6 +2,10 @@ body {
     background-color: rgb(1, 142, 245);
 }
 
+div {
+    display: block;
+}
+
 .content-nav {
     display: flex;
     justify-content: space-between;
@@ -45,5 +49,14 @@ body {
     margin-right: 5px;
     padding: 14px 20px 12px 16px;
     position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.log-in {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    margin-left: 20px;
+    cursor: pointer;
     text-decoration: none;
 }
