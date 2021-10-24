@@ -2,6 +2,14 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 10px solid goldenrod;
+    height: 100vh; */
 }
 
 .box {
@@ -10,6 +18,8 @@
     text-align: center;
     text-shadow: 4px 4px 0 rgba(0, 0, 0, 1);
     padding: 10px;
+    flex-basis: 250px;
+    /* width: 33.333%; */
 }
 
 .box1 {
@@ -50,10 +60,4 @@
 
 .box10 {
     background: #16a085
-}
-
-.container {
-    display: flex;
-    border: 10px solid goldenrod;
-    min-height: 100vh;
 }
