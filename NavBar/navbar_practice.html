@@ -6,12 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar Practice</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="navbar_practice.css">
 </head>
 
 <body>
+
     <div class="wrapper">
+
+        <header class="top">
+            <h1><a href="#/">Navigation Bar Parctice - Stretch</a></h1>
+        </header>
+
         <nav class="flex-nav">
+            <a href="#/" class="toggleNav">☰ Menu</a>
             <ul>
                 <li><a href="#">Item 01</a></li>
                 <li><a href="#">Item 02</a></li>
@@ -19,8 +27,42 @@
                 <li><a href="#">Item 04</a></li>
                 <li><a href="#">Item 05</a></li>
                 <li><a href="#">Item 06</a></li>
+                <li class="social">
+                    <a href="#/"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="social">
+                    <a href="#/"><i class="bi bi-twitter"></i></a>
+                </li>
+                <li class="social">
+                    <a href="#/"><i class="bi bi-github"></i></a>
+                </li>
+                <li class="social">
+                    <a href="#/"><i class="bi bi-instagram"></i></a>
+                </li>
             </ul>
         </nav>
+
+        <section class="hero">
+            <img src="http://lorempixel.com/1000/600/abstract">
+        </section>
+
+        <section class="details">
+            <p>Here goes a first line of text for this nav bar practice</p>
+            <p>Here goes a second line of text for this nav bar practice</p>
+        </section>
+
+        <section class="signup">
+            <form action="" class="signup">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email Address">
+                <input type="submit" value="Sign me up!">
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; Place your name here</p>
+        </footer>
+
     </div>
 
 </body>
